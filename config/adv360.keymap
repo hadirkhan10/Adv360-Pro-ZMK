@@ -44,7 +44,7 @@
  &kp EQUAL      &kp Q     &kp W     &kp E      &kp R   &kp T               &none                                                                             &none   &kp Y   &kp U      &kp I     &kp O     &kp P   &kp BSLH
    &kp TAB      &kp A     &kp S     &kp D      &kp F   &kp G               &none     &kp LCTRL  &macro_switch_tab                   &kp LGUI  &kp RCTRL      &none   &kp H   &kp J      &kp K     &kp L  &kp SEMI    &kp SQT
  &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                             &kp HOME                  &kp PG_UP                         &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC  &kp LEFT_ALT            &kp END                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
+     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                    &kp BSPC  &kp LEFT_ALT              &mo 4                  &kp PG_DN  &kp ENTER  &kp SPACE          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT      &mo 2
             >;
         };
 
@@ -75,6 +75,16 @@
   &none         &none         &none         &none         &none         &none                  &none   &none   &none                  &bt BT_CLR       &none  &rgb_ug RGB_MEFS_CMD 5   &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none    &macro_ver         &none                                  &none                       &none                                       &none       &none       &none   &none   &none   &none
   &none         &none         &none         &none         &none                                &none   &none   &none                       &none  &bl BL_TOG         &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC   &none   &none   &none
+            >;
+        };
+
+        layer_Vim_move {
+            bindings = <
+ &trans      &trans               &trans     &trans  &trans            &trans            &trans                                                  &trans          &trans          &trans        &trans           &trans  &trans  &trans
+ &trans      &trans  &macro_move_forward    &kp END  &trans            &trans            &trans                                                  &trans          &trans       &kp PG_UP        &trans           &trans  &trans  &trans
+ &trans    &kp HOME               &trans  &kp PG_DN  &trans            &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
+ &trans  &kp K_UNDO               &trans     &trans  &trans  &macro_move_back                            &trans                  &trans                          &trans          &trans        &trans           &trans  &trans  &trans
+ &trans      &trans               &trans     &trans  &trans                              &trans  &trans  &trans                  &trans  &trans  &trans                          &trans        &trans           &trans  &trans  &trans
             >;
         };
 
