@@ -1,3 +1,9 @@
+macro_tmux_activation: macro_tmux_activation{
+compatible = "zmk,behavior-macro";
+label = "macro_tmux_activation";
+#binding-cells = <0>;
+bindings = <&sk LCTRL>, <&kp B>;
+};
 macro_move_back: macro_move_back{
 compatible = "zmk,behavior-macro";
 label = "macro_move_back";
