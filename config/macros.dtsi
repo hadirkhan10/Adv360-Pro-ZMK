@@ -1,9 +1,3 @@
-macro_hold_tap: macro_hold_tap{
-compatible = "zmk,behavior-macro";
-label = "macro_hold_tap";
-#binding-cells = <0>;
-bindings = ;
-};
 macro_tmux_activation: macro_tmux_activation{
 compatible = "zmk,behavior-macro";
 label = "macro_tmux_activation";
