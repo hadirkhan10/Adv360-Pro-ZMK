@@ -2,13 +2,13 @@ macro_move_back: macro_move_back{
 compatible = "zmk,behavior-macro";
 label = "macro_move_back";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&kp B>;
+bindings = <&sk LCTRL>, <&kp LEFT_ARROW>;
 };
 macro_move_forward: macro_move_forward{
 compatible = "zmk,behavior-macro";
 label = "macro_move_forward";
 #binding-cells = <0>;
-bindings = <&sk LCTRL>, <&kp W>;
+bindings = <&sk LCTRL>, <&kp RIGHT_ARROW>;
 };
 macro_switch_tab: macro_switch_tab{
 compatible = "zmk,behavior-macro";
